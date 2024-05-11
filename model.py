@@ -1,21 +1,16 @@
-import pathlib
-import textwrap
-import config
 import google.generativeai as genai
-
-from IPython.display import display
-from IPython.display import Markdown
-
-
-def to_markdown(text):
-    text = text.replace("•", "  *")
-    return Markdown(textwrap.indent(text, "> ", predicate=lambda _: True))
-
+import config
 
 genai.configure(api_key=config.GOOGLE_API_KEY)
 
-for m in genai.list_models():
-    if "generateContent" in m.supported_generation_methods:
-        print(m.name)
-
 model = genai.GenerativeModel("gemini-pro")
+
+prompt = """Show your result in paragraph form. 
+    It should have at least 100 words and MUST start with the given input. 
+    Continue the following input with a realistic and intense Formula One commentary as if it was during a race day: {}""".format(
+    input()
+)
+
+result = model.generate_content(prompt)
+
+print(result.text)
