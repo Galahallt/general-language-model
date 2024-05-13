@@ -1,10 +1,3 @@
-<style>
-  code {
-    white-space : pre-wrap !important;
-    word-break: break-word;
-  }
-</style>
-
 # General Language Model
 Introduction to LLMs using Google's Gemini API
 
