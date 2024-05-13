@@ -19,7 +19,7 @@ commentary_data = [
         "output": "The sun shines brightly over the iconic Silverstone circuit, casting an ethereal glow upon the sleek and powerful machines below. The air crackles with anticipation as the engines roar to life, promising an unforgettable spectacle. As the lights turn green, the drivers surge forward in a blur of speed and color. The grandstands erupt in a cacophony of cheers, their voices echoing through the hallowed halls of motorsport. Lewis Hamilton, the reigning champion, takes an early lead, his Mercedes slicing through the corners with surgical precision. Max Verstappen, his closest rival, follows in hot pursuit, his Red Bull trailing mere inches behind. The battle for supremacy is fierce, every overtake a testament to the skill and daring of these extraordinary athletes. Lap by lap, the drama intensifies. Sebastian Vettel, a wily veteran, makes a daring move on Charles Leclerc, the young pretender, at the treacherous Becketts corner. The crowd gasps as their cars brush against the barriers, a heart-stopping moment that defines the unrelenting nature of Formula One.",
     },
     {
-        "text_input": "Testubes are",
+        "text_input": "testubes are",
         "output": "Testubes are clattering and whirring, engineers furiously analyzing telemetry data as the pit crew swarms around the car, working with lightning speed. The tension is palpable as the driver, poised and focused, awaits the signal to return to the track. The roar of the engines reverberates through the air, each car a symphony of power and precision. The green flag waves, and the pack of Formula One cars surge forward, a blur of color and speed. They thunder down the straight, brakes squealing as they approach the first corner, tires gripping the asphalt with unwavering determination. The commentator's voice crackles over the radio, his words a rapid-fire torrent of excitement and anticipation: \"Lights out and away we go! Hamilton takes the lead, followed by Verstappen and Leclerc. Alonso makes a daring move on the outside, but it's Verstappen who seizes the opportunity and overtakes Hamilton! The battle at the front is fierce, with these three drivers pushing their cars to the absolute limit.\"",
     },
     {
@@ -82,17 +82,7 @@ commentary_data = [
     },
     {
         "text_input": "Highschool students",
-        "output": """Highschool students gather around the television, their faces painted with anticipation. The air crackles with excitement as the Formula One commentator's voice booms through the speakers.
-
-        \"Lap 15, and the race is reaching its boiling point. Lewis Hamilton, the reigning champion, holds a slender lead over his fierce rival, Max Verstappen. The two titans are locked in an intense battle, trading fastest laps as they push their machines to the absolute limit.\"
-
-        The crowd roars as Verstappen attempts a daring overtake, but Hamilton expertly defends his position. The commentators' voices rise to a crescendo as they describe the nail-biting duel, each corner a potential turning point.
-
-        \"Lap 22, and Verstappen makes his move! He dives into the inside of Hamilton at Turn 3, but the Briton shows incredible resilience, holding his ground. The crowd erupts in a frenzy, the tension reaching fever pitch.\"
-
-        The commentators' commentary becomes a blur of speed and adrenaline, capturing every twist and turn of the thrilling race. The students erupt in cheers as Verstappen finally manages to pass Hamilton, taking the lead. But the battle is far from over.
-
-        \"Lap 30, and Hamilton fights back! He follows Verstappen closely, waiting for the perfect opportunity to strike. The two cars are mere inches apart, creating a mesmerizing spectacle that keeps the audience on the edge of their seats.\"""",
+        "output": """c""",
     },
     {
         "text_input": "I wear pants",
@@ -106,4 +96,33 @@ commentary_data = [
         "text_input": "I like pokemon",
         "output": """I like pokemon, but I also love Formula One. The roar of the engines, the smell of burning rubber, and the excitement of the race day are just a few of the things that make this sport so special. And today, we have a special race on our hands. Lewis Hamilton and Max Verstappen are neck and neck, pushing their cars to the limit. The crowd is on its feet, screaming and cheering. Hamilton takes the lead, but Verstappen is right behind him. They come around the final corner, side by side. And then, in a flash, Verstappen overtakes Hamilton to win the race! The crowd erupts in a mixture of cheers and boos, but everyone agrees that this was a race for the ages.""",
     },
+]
+
+prompt_parts = [
+    "input: In the",
+    "output: In the heart of Monaco, under a sky ablaze with fireworks, the Formula One Grand Prix reaches its crescendo. The air is thick with the scent of champagne and the roar of engines echoing off the luxurious yachts lining the harbor. The drivers, exhausted but exhilarated, prepare for the podium ceremony, a culmination of their relentless pursuit of speed and glory.",
+    "input: please I ca not",
+    """output:  "Please, I cannot," the voice crackled over the radio, a desperate plea cutting through the roar of the engines. It was Sebastian Vettel, his usually calm and collected demeanor replaced by a tone of sheer panic. The crowd gasped, a ripple of concern spreading through the grandstands as the commentators scrambled to understand what was happening.  
+    "We're seeing something very unusual here," the lead commentator exclaimed, his voice tinged with disbelief. "Vettel has slowed dramatically, he's almost crawling around the track! What could be wrong?"
+
+    The cameras zoomed in on Vettel's car, revealing the source of the problem. A thick plume of smoke billowed from the rear, a clear sign of mechanical failure. The German driver, his dreams of victory evaporating into thin air, was forced to pull over to the side of the track, his race over before it had truly begun.  
+
+    As the safety car was deployed, a hush fell over the circuit, the dramatic turn of events leaving everyone stunned. Vettel, his head bowed in disappointment, climbed out of the stricken car, his shoulders slumped with the weight of what might have been. The race, however, continued, the remaining drivers now navigating a new set of challenges in the wake of this unexpected development.""",
+    "input: be can the",
+    """output: "Be can the..." - those words hung in the air, a garbled message from the pit crew to their driver. The tension crackled, thicker than the exhaust fumes filling the air.  This was it, the final lap of the Grand Prix, and every second counted.  
+    Their driver, a young prodigy with nerves of steel, squinted at the message board, confusion furrowing his brow.  "Be can the what?" he muttered, his gloved hand tightening on the steering wheel.  
+
+    The answer came not through words, but through the roar of an engine.  His rival, a seasoned veteran known for his ruthless tactics, was closing in.  This wasn't just about the checkered flag anymore; it was about pride, about proving who was the apex predator on this asphalt jungle.
+
+    "BE CAN THE CHAMPION!" the pit crew screamed, their voices barely audible above the din. 
+
+    The young driver understood.  Forget the confusion, forget the pressure. This was his moment.  He slammed his foot down on the gas pedal, the engine screaming its defiance.  He was going to be the champion, no matter what.""",
+    "input: DLSU",
+    """output: DLSU, the pride of Philippine basketball, has decided to take on a new challenge - Formula One racing! The iconic green-and-white livery now adorns a sleek, cutting-edge machine, ready to take on the world's best drivers. The team, fueled by the passionate cheers of their loyal supporters, aims to bring their signature "Animo" spirit to the race track.
+
+    Their driver, a young prodigy discovered on the karting circuits of Manila, is eager to prove himself on the international stage. He skillfully maneuvers the DLSU car through the tight corners and blasts down the straightaways, pushing the limits of both machine and man.  
+
+    The competition is fierce, with established giants like Ferrari and Mercedes vying for the top spot. But DLSU is undeterred, their underdog spirit pushing them to extract every ounce of performance from their car.""",
+    "input: dont",
+    "output:  Don't worry, the race isn't over yet. Despite the setback, the driver remains focused, determined to claw their way back to the front of the pack. The pit crew works tirelessly, strategizing and fine-tuning the car for optimal performance. Every second counts, every decision crucial in this high-stakes game of speed and precision. As the car roars back onto the track, the roar of the crowd echoes the driver's unyielding spirit. It's time to fight, time to push beyond limits and defy expectations. Don't count them out just yet; the thrill of the chase is only just beginning. ",
 ]
