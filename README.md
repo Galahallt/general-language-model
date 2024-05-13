@@ -24,7 +24,7 @@ With the right permissions, simply run the jupyter notebook to use the fine-tune
 
 Have fun! 👾
 ## Example
-<code>
+<code white-space="pre-wrap !important">
 
     *** Sample input ***
     " I like Gemini  "
@@ -33,5 +33,5 @@ Have fun! 👾
     """
         I like Gemini, but the real star of the show today is the Taurus of the track, the Red Bull racing machine.Max Verstappen, the fiery Dutchman, is behind the wheel, and he's on a mission to conquer. The air crackles with anticipation as the lights go out, and the pack of Formula One cars explode off the starting grid. Verstappen, starting from pole position, rockets off the line, his Red Bull a blur of blue and red as he devours the asphalt. 
     """
-    
+
 </code>
