@@ -81,10 +81,6 @@ commentary_data = [
         "output": 'Droplets of water make a puddle on the asphalt of the race track, painting a treacherous canvas for the Formula One titans. The air crackles with anticipation as the drivers prepare for the ultimate showdown. With the starting lights extinguished, the pack erupts into a furious blur, their engines screaming through the rain-soaked air. Lewis Hamilton, the reigning champion, battles for supremacy against his arch-rival Max Verstappen. The cars dance through the treacherous corners, the spray of water clouding the vision of the drivers. Every maneuver is a calculated risk, each lap an exhilarating ballet of speed and precision. Behind them, the chasing pack lurks, hungry for the slightest slip-up. The commentators\' voices rise above the roar of the engines, painting a vivid tapestry of the unfolding drama. "Verstappen pushes Hamilton wide!" they exclaim. "But Hamilton fights back, refusing to yield his position!" The battle rages on, lap after lap, the tension building to an unbearable crescendo. With just a few laps remaining, Verstappen makes a daring move, overtaking Hamilton under the safety car. The crowd erupts in a deafening roar as the checkered flag signals the end of the race. Verstappen triumphs, with Hamilton settling for second. But the true victory belongs to the sport itself, a spectacle of human skill and mechanical marvel that has kept the world on the edge of its seat from start to finish.',
     },
     {
-        "text_input": "Highschool students",
-        "output": """c""",
-    },
-    {
         "text_input": "I wear pants",
         "output": """I wear pants, but I'm not one to shy away from a challenge. As the engines roar and the lights turn green, I grip the steering wheel, my knuckles turning white with anticipation. The car lunges forward, its tires screeching against the track. I'm neck-and-neck with my rival, Sebastian Vettel, the crowd's cheers deafening as we push our machines to the limit.
 
